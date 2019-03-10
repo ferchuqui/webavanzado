@@ -1,0 +1,49 @@
+/*
+#  ·················
+#  ··_______________
+#  ·/·___/·___/·___/
+#  /·/__(__··|__··)·
+#  \___/____/____/··
+#  ·················
+*/
+html, body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-family: Helvetica;
+}
+nav {
+    align-items: center;
+    background-color: green; 
+    color: white;
+    display: flex; 
+    justify-content: space-between; 
+    padding: 10px;
+    
+}
+nav ul {
+    display: flex;
+}
+nav li {
+    list-style: none;
+    padding-left: 20px;
+}
+nav li a{
+    color: black;
+    text-decoration: none;
+
+}
+nav li a:hover {
+    color: white;
+}
+/* main_section */
+.main_section {
+    padding:15%;
+    text-align: center;
+}
+.products {
+    background-image: url("../images/curve.png");
+    background-size: cover;
+    background-position: center top;
+    height: 100px; 
+}
